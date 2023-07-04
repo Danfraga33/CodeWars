@@ -1,7 +1,7 @@
 function Node(data) {
   this.data = data;
   this.next = null;
-}
+} 
  
 function insertNth(head, index, data) {
   if (index < 0) {
