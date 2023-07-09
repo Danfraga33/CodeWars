@@ -5,7 +5,7 @@ function XO (str) {
   
   for (let i = 0; i < str.length; i++) {
     if (splitted[i].toLowerCase() === 'x') {
-      exes++;
+      exes++; 
     } else if (splitted[i].toLowerCase() === 'o') {
       zeros++;
     }
