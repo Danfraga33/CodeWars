@@ -7,7 +7,7 @@ function sumDigPow (a, b) {
   }
 
   return result
-}
+} 
 
 
 function isDigitPower (num) {
