@@ -5,4 +5,4 @@ function abbrevName(name) {
     .map((n) => n[0])
     .join(".");
   return adjusted;
-}
+} 
