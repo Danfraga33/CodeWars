@@ -4,7 +4,7 @@
     let positions = [];
     for (let i = 0; i < stripped.length; i++) {
       if ((stripped[i] >= 'a' && stripped[i] <= 'z') || (stripped[i] >= 'A' && stripped[i] <= 'Z'))
-        {
+        { 
         const position = stripped[i].toLowerCase().charCodeAt(0) - "a".charCodeAt(0) + 1;
         positions.push(position);
         } 
