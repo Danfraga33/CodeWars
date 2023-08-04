@@ -6,7 +6,7 @@ function queueTime (customers, n) {
   }, 0)
   
     
-    return duration
+    return duration 
   } else if (n > 0) {
     const registers = new Array(n).fill(0);
     console.log(registers)
