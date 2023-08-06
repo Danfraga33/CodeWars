@@ -6,5 +6,5 @@ var min = function(list){
 
 var max = function(list){
   
-  return Math.max.apply(Math, list);
+  return Math.max.apply(Math, list); 
 }
