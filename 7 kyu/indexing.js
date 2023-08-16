@@ -1,3 +1,3 @@
-var number = function (array) {
+let number = function (array) {
   return array.map((num, idx) => `${(idx + 1)}: ${num}`) 
 }
