@@ -3,7 +3,7 @@ function Node(data) {
   this.next = null;
 }  
    
-function insertNth(head, index, data) {
+function insertNth(head, index, data) { 
   if (index < 0) {
     throw new Error("Invalid index value: index must be non-negative.");
   }
