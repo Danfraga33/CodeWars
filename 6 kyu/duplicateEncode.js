@@ -4,7 +4,7 @@ function duplicateEncode(word){
   for (let i = 0; i < word.length; i++) {
     let hello = word[i].toLowerCase()
     
-    if (charCounts[hello]) {
+    if (charCounts[hello]) { 
       charCounts[hello]++;
     } else {
       charCounts[hello] = 1;
