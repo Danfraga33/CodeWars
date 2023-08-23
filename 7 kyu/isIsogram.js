@@ -2,7 +2,7 @@ function isIsogram(str){
   let lowercase = str.toLowerCase()
   let splited = lowercase.split("")
 
-  let letterSet = new Set()
+  let letterSet = new Set() 
   
   
   
