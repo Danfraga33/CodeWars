@@ -4,7 +4,7 @@ function descendingOrder(n){
    
    // fn created for use on sort
    function compareDigits (a, b) {  
-     return b - a;
+     return b - a; 
    }
  
    const arr = []
