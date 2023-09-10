@@ -3,7 +3,7 @@ function order (words) {
   let arranged = []
   let splitedText = words.split(" ")
   splitedText.sort((a, b) => {
-    const numA = extractNumbericValue(a);
+    const numA = extractNumbericValue(a); 
     const numB = extractNumbericValue(b);
     return numA - numB
   })
