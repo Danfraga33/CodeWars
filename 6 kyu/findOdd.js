@@ -9,7 +9,7 @@ function findOdd (A) {
       if (A[j] === A[i]) {
         count++
       }
-    } 
+    }  
     // Find odd
     if (count % 2 !== 0) {
       oddNum = A[i]
