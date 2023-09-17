@@ -5,7 +5,7 @@ function longest(s1, s2) {
   const splitted = joined.split('')
 
   let answer = [];
-  for (let i = 0; i < splitted.length; i++) {
+  for (let i = 0; i < splitted.length; i++) { 
     if (!answer.includes(splitted[i])) {
       answer.push(splitted[i])
     }
