@@ -1,6 +1,6 @@
 function rentalCarCost(d) {
   // Your solution here
-  let totalCost;
+  let totalCost; 
   if (d <= 2) {
     totalCost = d * 40
   } else if (d >= 7) {
