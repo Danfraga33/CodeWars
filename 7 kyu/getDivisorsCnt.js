@@ -4,6 +4,6 @@ function getDivisorsCnt (n) {
   for (let i = 1; i <= divisions; i++) {
     n % i === 0 ? count++ : 0  
   }
-  return count
+  return count 
   // todo  
 }
