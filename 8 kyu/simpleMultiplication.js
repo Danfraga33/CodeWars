@@ -3,5 +3,5 @@ function simpleMultiplication(number) {
     return number * 8
   } else {
     return number * 9
-  }
+  } 
 }
