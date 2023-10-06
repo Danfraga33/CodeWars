@@ -2,7 +2,7 @@ function squareSum(numbers) {
   // Create a new array of squared nums
   let squaredNums = numbers.map((num) => {
     return num * num
-  })
+  }) 
 
   // sum all of the new nums together
   let sum = squaredNums.reduce((acc, num) => {
