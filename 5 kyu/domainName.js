@@ -3,5 +3,5 @@ function domainName(url) {
   return domainName;   
 }       
         
-   
+      
  
