@@ -1,5 +1,5 @@
 function findOdd (A) {
-  let oddNum = 0;
+  let oddNum = 0; 
 // Iterate over all
   for (let i = 0; i < A.length; i++) {
     let count = 0
