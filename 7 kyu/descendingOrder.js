@@ -8,7 +8,7 @@ function descendingOrder(n){
    }
  
    const arr = []
-   //only take positive integers
+   //only take positive integers 
    for (let i = 0; i < splited.length; i++) {
      if (splited[i] >= 0) {
        arr.push(splited[i])
