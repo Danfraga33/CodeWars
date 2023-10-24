@@ -3,7 +3,7 @@ function descendingOrder(n){
    const splited = String(n).split('') 
    
    // fn created for use on sort
-   function compareDigits (a, b) {  
+   function compareDigits (a, b) {   
      return b - a; 
    }
  
