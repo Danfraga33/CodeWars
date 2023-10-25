@@ -1,6 +1,6 @@
 function order (words) {
  
-  let arranged = []
+  let arranged = [] 
   let splitedText = words.split(" ")
   splitedText.sort((a, b) => {
     const numA = extractNumbericValue(a); 
