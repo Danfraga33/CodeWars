@@ -5,5 +5,5 @@ function getDivisorsCnt (n) {
     n % i === 0 ? count++ : 0  
   }
   return count 
-  // todo  
+  // todo   
 }
