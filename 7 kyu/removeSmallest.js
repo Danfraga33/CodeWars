@@ -7,7 +7,7 @@ function removeSmallest (numbers) {
 
       withoutLowest.push(numbers[i])
     }
-  }
+  } 
   return withoutLowest
 }
 
