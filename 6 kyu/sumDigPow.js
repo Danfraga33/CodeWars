@@ -3,7 +3,7 @@ function sumDigPow (a, b) {
   for (let i = a; i < b; i++) {
     if (isDigitPower(i)) {
       result.push(i)
-    }
+    } 
   }
 
   return result
