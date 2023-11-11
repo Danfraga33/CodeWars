@@ -2,7 +2,7 @@ function high(x){
   let wordList = x.split(' ');
   let maxScore = 0;
   let heighestWord = ''
-
+ 
   for (let i = 0; i < wordList.length; i++) {
     let word = wordList[i]
     let score = 0
