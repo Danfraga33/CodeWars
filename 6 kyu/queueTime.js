@@ -10,7 +10,7 @@ function queueTime (customers, n) {
   } else if (n > 0) {
     const registers = new Array(n).fill(0);
     console.log(registers)
-
+ 
     for (let i = 0; i < customers.length; i++) {
       const minIndex = registers.indexOf(Math.min(...registers));
       registers[minIndex] += customers[i];
