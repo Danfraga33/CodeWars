@@ -7,6 +7,6 @@ function rentalCarCost(d) {
     totalCost = (d * 40) - 50
   } else if (d < 7 && d >= 3) {
     totalCost = (d * 40) - 20
-  }
+  } 
   return totalCost
 }
