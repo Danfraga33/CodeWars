@@ -1,5 +1,5 @@
 function queueTime (customers, n) {
-
+ 
   if(n === 1) {
   const duration = customers.reduce((acc, curr) => {
     return acc + curr;
