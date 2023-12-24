@@ -5,4 +5,4 @@ function checkForFactor (base, factor) {
     } else {
       return false
     }
-  }
+  } 
