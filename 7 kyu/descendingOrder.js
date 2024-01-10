@@ -6,7 +6,7 @@ function descendingOrder(n){
    function compareDigits (a, b) {   
      return b - a;  
    }
- 
+  
    const arr = []
    //only take positive integers 
    for (let i = 0; i < splited.length; i++) {
