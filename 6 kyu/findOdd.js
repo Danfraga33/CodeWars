@@ -6,7 +6,7 @@ function findOdd (A) {
 // Iterate over all again
     for (let j = 0; j < A.length; j++) {
       // Count
-      if (A[j] === A[i]) {
+      if (A[j] === A[i]) { 
         count++
       }
     }  
