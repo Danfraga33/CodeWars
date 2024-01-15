@@ -7,7 +7,7 @@ function findOdd (A) {
     for (let j = 0; j < A.length; j++) {
       // Count
       if (A[j] === A[i]) { 
-        count++
+        count++ 
       }
     }  
     // Find odd
