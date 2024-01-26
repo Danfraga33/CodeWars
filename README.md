@@ -4,4 +4,4 @@ This repository contains my solutions to CodeWars katas.
 
 ## Structure
 
-- Each kata has its own directory.
+- Each kyu has its own directory.
