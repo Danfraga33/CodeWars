@@ -15,3 +15,4 @@ function solution (string) {
   words.push(currentWord)
   return words.join(' ') 
 }
+ 
