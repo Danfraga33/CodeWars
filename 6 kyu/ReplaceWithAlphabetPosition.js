@@ -1,5 +1,5 @@
   function alphabetPosition (text) {
- 
+  
     let stripped = text.split('');
     let positions = []; 
     for (let i = 0; i < stripped.length; i++) {
