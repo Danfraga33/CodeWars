@@ -1,5 +1,4 @@
 function order (words) {
- 
   let arranged = [] 
   let splitedText = words.split(" ")
   splitedText.sort((a, b) => {
