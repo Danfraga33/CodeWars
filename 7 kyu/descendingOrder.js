@@ -1,7 +1,7 @@
 function descendingOrder(n){
   // Broken Down into an array to target single values
    const splited = String(n).split('') 
-   
+    
    // fn created for use on sort
    function compareDigits (a, b) {   
      return b - a;   
