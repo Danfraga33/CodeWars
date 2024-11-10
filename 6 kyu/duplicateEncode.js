@@ -1,6 +1,6 @@
 function duplicateEncode(word){
   // let splittedWord = word.split('')
-  const charCounts = {}
+  const charCounts = {} 
   for (let i = 0; i < word.length; i++) {
     let hello = word[i].toLowerCase()
     
